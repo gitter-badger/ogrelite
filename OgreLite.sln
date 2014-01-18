@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OgreLite", "OgreLite\OgreLite.vcxproj", "{CA48DF3A-D553-4DE4-ABD5-3FB19F391ED5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderSystem_Direct3D9", "RenderSystems\Direct3D9\RenderSystem_Direct3D9.vcxproj", "{A03E1E41-0CF9-4C46-BB24-D604B64A24F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestMFC", "TestMFC\TestMFC.vcxproj", "{5D1E5F7A-C9B0-4A29-A499-66279863AC7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA48DF3A-D553-4DE4-ABD5-3FB19F391ED5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA48DF3A-D553-4DE4-ABD5-3FB19F391ED5}.Debug|Win32.Build.0 = Debug|Win32
+		{CA48DF3A-D553-4DE4-ABD5-3FB19F391ED5}.Release|Win32.ActiveCfg = Release|Win32
+		{CA48DF3A-D553-4DE4-ABD5-3FB19F391ED5}.Release|Win32.Build.0 = Release|Win32
+		{A03E1E41-0CF9-4C46-BB24-D604B64A24F1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A03E1E41-0CF9-4C46-BB24-D604B64A24F1}.Debug|Win32.Build.0 = Debug|Win32
+		{A03E1E41-0CF9-4C46-BB24-D604B64A24F1}.Release|Win32.ActiveCfg = Release|Win32
+		{A03E1E41-0CF9-4C46-BB24-D604B64A24F1}.Release|Win32.Build.0 = Release|Win32
+		{5D1E5F7A-C9B0-4A29-A499-66279863AC7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D1E5F7A-C9B0-4A29-A499-66279863AC7E}.Debug|Win32.Build.0 = Debug|Win32
+		{5D1E5F7A-C9B0-4A29-A499-66279863AC7E}.Release|Win32.ActiveCfg = Release|Win32
+		{5D1E5F7A-C9B0-4A29-A499-66279863AC7E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
