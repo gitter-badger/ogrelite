@@ -1,0 +1,7 @@
+OgreLite/Debug/
+RenderSystems/Direct3D9/Debug/
+TestMFC/Debug/
+ipch/
+*.sdf
+*.suo
+Debug/

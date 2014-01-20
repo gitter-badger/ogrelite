@@ -1,0 +1,559 @@
+13:55:47: Creating resource group General
+13:55:47: Creating resource group Internal
+13:55:47: Creating resource group Autodetect
+13:55:47: SceneManagerFactory for type 'DefaultSceneManager' registered.
+13:55:47: Registering ResourceManager for type Material
+13:55:47: Registering ResourceManager for type Mesh
+13:55:47: Registering ResourceManager for type Skeleton
+13:55:47: MovableObjectFactory for type 'ParticleSystem' registered.
+13:55:47: ArchiveFactory for archive type FileSystem registered.
+13:55:47: ArchiveFactory for archive type Zip registered.
+13:55:47: ArchiveFactory for archive type EmbeddedZip registered.
+13:55:47: DDS codec registering
+13:55:47: FreeImage version: 3.15.3
+13:55:47: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+13:55:47: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti
+13:55:47: Registering ResourceManager for type HighLevelGpuProgram
+13:55:47: Registering ResourceManager for type Compositor
+13:55:47: MovableObjectFactory for type 'Entity' registered.
+13:55:47: MovableObjectFactory for type 'Light' registered.
+13:55:47: MovableObjectFactory for type 'BillboardSet' registered.
+13:55:47: MovableObjectFactory for type 'ManualObject' registered.
+13:55:47: MovableObjectFactory for type 'BillboardChain' registered.
+13:55:47: MovableObjectFactory for type 'RibbonTrail' registered.
+13:55:47: OGRE EXCEPTION(6:FileNotFoundException): 'plugins_d.cfg' file not found! in ConfigFile::load at c:\users\jupit_000\documents\github\ogrelite\ogrelite\src\ogreconfigfile.cpp (line 82)
+13:55:47: plugins_d.cfg not found, automatic plugin loading disabled.
+13:55:47: *-*-* OGRE Initialising
+13:55:47: *-*-* Version 1.9.0 (Ghadamon)
+13:55:47: Loading library RenderSystem_Direct3D9
+13:55:47: Installing plugin: D3D9 RenderSystem
+13:55:47: D3D9 : Direct3D9 Rendering Subsystem created.
+13:55:47: D3D9: Driver Detection Starts
+13:55:47: D3D9: Driver Detection Ends
+13:55:47: Plugin successfully installed
+13:55:47: CPU Identifier & Features
+13:55:47: -------------------------
+13:55:47:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz
+13:55:47:  *      SSE: yes
+13:55:47:  *     SSE2: yes
+13:55:47:  *     SSE3: yes
+13:55:47:  *      MMX: yes
+13:55:47:  *   MMXEXT: yes
+13:55:47:  *    3DNOW: no
+13:55:47:  * 3DNOWEXT: no
+13:55:47:  *     CMOV: yes
+13:55:47:  *      TSC: yes
+13:55:47:  *      FPU: yes
+13:55:47:  *      PRO: yes
+13:55:47:  *       HT: no
+13:55:47: -------------------------
+13:55:47: D3D9 : Subsystem Initialising
+13:55:47: Registering ResourceManager for type Texture
+13:55:47: Registering ResourceManager for type GpuProgram
+13:55:47: ***************************************
+13:55:47: *** D3D9 : Subsystem Initialised OK ***
+13:55:47: ***************************************
+13:55:47: D3D9RenderSystem::_createRenderWindow "199922", 0x0 windowed  miscParams: externalWindowHandle=199922 
+13:55:47: D3D9 : Created D3D9 Rendering Window '199922' : 10x10, 32bpp
+13:55:47: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:47: D3D9: Vertex texture format supported - PF_L8
+13:55:47: D3D9: Vertex texture format supported - PF_L16
+13:55:47: D3D9: Vertex texture format supported - PF_A8
+13:55:47: D3D9: Vertex texture format supported - PF_A4L4
+13:55:47: D3D9: Vertex texture format supported - PF_BYTE_LA
+13:55:47: D3D9: Vertex texture format supported - PF_R5G6B5
+13:55:47: D3D9: Vertex texture format supported - PF_B5G6R5
+13:55:47: D3D9: Vertex texture format supported - PF_A4R4G4B4
+13:55:47: D3D9: Vertex texture format supported - PF_A1R5G5B5
+13:55:47: D3D9: Vertex texture format supported - PF_A8R8G8B8
+13:55:47: D3D9: Vertex texture format supported - PF_B8G8R8A8
+13:55:47: D3D9: Vertex texture format supported - PF_A2R10G10B10
+13:55:47: D3D9: Vertex texture format supported - PF_A2B10G10R10
+13:55:47: D3D9: Vertex texture format supported - PF_DXT1
+13:55:47: D3D9: Vertex texture format supported - PF_DXT2
+13:55:47: D3D9: Vertex texture format supported - PF_DXT3
+13:55:47: D3D9: Vertex texture format supported - PF_DXT4
+13:55:47: D3D9: Vertex texture format supported - PF_DXT5
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+13:55:47: D3D9: Vertex texture format supported - PF_X8R8G8B8
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8B8A8
+13:55:47: D3D9: Vertex texture format supported - PF_DEPTH
+13:55:47: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT16_R
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT32_R
+13:55:47: D3D9: Vertex texture format supported - PF_SHORT_GR
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+13:55:47: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+13:55:47: D3D9: Vertex texture format supported - PF_SHORT_RGB
+13:55:47: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+13:55:47: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+13:55:47: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+13:55:47: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+13:55:47: D3D9: Vertex texture format supported - PF_PVRTC2_2BPP
+13:55:47: D3D9: Vertex texture format supported - PF_PVRTC2_4BPP
+13:55:47: D3D9: Vertex texture format supported - PF_R11G11B10_FLOAT
+13:55:47: D3D9: Vertex texture format supported - PF_R8_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8B8_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8B8A8_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16B16_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16B16A16_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32G32_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32G32B32_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32G32B32A32_UINT
+13:55:47: D3D9: Vertex texture format supported - PF_R8_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8B8_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8B8A8_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16B16_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16B16A16_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32G32_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32G32B32_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R32G32B32A32_SINT
+13:55:47: D3D9: Vertex texture format supported - PF_R9G9B9E5_SHAREDEXP
+13:55:47: D3D9: Vertex texture format supported - PF_BC4_UNORM
+13:55:47: D3D9: Vertex texture format supported - PF_BC4_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_BC5_UNORM
+13:55:47: D3D9: Vertex texture format supported - PF_BC5_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_BC6H_UF16
+13:55:47: D3D9: Vertex texture format supported - PF_BC6H_SF16
+13:55:47: D3D9: Vertex texture format supported - PF_BC7_UNORM
+13:55:47: D3D9: Vertex texture format supported - PF_BC7_UNORM_SRGB
+13:55:47: D3D9: Vertex texture format supported - PF_R8
+13:55:47: D3D9: Vertex texture format supported - PF_RG8
+13:55:47: D3D9: Vertex texture format supported - PF_R8_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8B8_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_R8G8B8A8_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_R16_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16B16_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_R16G16B16A16_SNORM
+13:55:47: D3D9: Vertex texture format supported - PF_ETC1_RGB8
+13:55:47: D3D9: Vertex texture format supported - PF_ETC2_RGB8
+13:55:47: D3D9: Vertex texture format supported - PF_ETC2_RGBA8
+13:55:47: D3D9: Vertex texture format supported - PF_ETC2_RGB8A1
+13:55:47: D3D9: Vertex texture format supported - PF_ATC_RGB
+13:55:47: D3D9: Vertex texture format supported - PF_ATC_RGBA_EXPLICIT_ALPHA
+13:55:47: D3D9: Vertex texture format supported - PF_ATC_RGBA_INTERPOLATED_ALPHA
+13:55:47: RenderSystem capabilities
+13:55:47: -------------------------
+13:55:47: RenderSystem Name: Direct3D9 Rendering Subsystem
+13:55:47: GPU Vendor: intel
+13:55:47: Device Name: Monitor-1-Intel(R) HD Graphics 3000
+13:55:47: Driver Version: 9.18.13.3182
+13:55:47:  * Fixed function pipeline: yes
+13:55:47:  * Hardware generation of mipmaps: yes
+13:55:47:  * Texture blending: yes
+13:55:47:  * Anisotropic texture filtering: yes
+13:55:47:  * Dot product texture operation: yes
+13:55:47:  * Cube mapping: yes
+13:55:47:  * Hardware stencil buffer: yes
+13:55:47:    - Stencil depth: 8
+13:55:47:    - Two sided stencil support: yes
+13:55:47:    - Wrap stencil values: yes
+13:55:47:  * Hardware vertex / index buffers: yes
+13:55:47:  * 32-bit index buffers: yes
+13:55:47:  * Vertex programs: yes
+13:55:47:  * Number of floating-point constants for vertex programs: 256
+13:55:47:  * Number of integer constants for vertex programs: 16
+13:55:47:  * Number of boolean constants for vertex programs: 16
+13:55:47:  * Fragment programs: yes
+13:55:47:  * Number of floating-point constants for fragment programs: 224
+13:55:47:  * Number of integer constants for fragment programs: 16
+13:55:47:  * Number of boolean constants for fragment programs: 16
+13:55:47:  * Geometry programs: no
+13:55:47:  * Number of floating-point constants for geometry programs: 0
+13:55:47:  * Number of integer constants for geometry programs: 0
+13:55:47:  * Number of boolean constants for geometry programs: 0
+13:55:47:  * Tesselation Hull programs: no
+13:55:47:  * Number of floating-point constants for tesselation hull programs: 0
+13:55:47:  * Number of integer constants for tesselation hull programs: 0
+13:55:47:  * Number of boolean constants for tesselation hull programs: 0
+13:55:47:  * Tesselation Domain programs: no
+13:55:47:  * Number of floating-point constants for tesselation domain programs: 0
+13:55:47:  * Number of integer constants for tesselation domain programs: 0
+13:55:47:  * Number of boolean constants for tesselation domain programs: 0
+13:55:47:  * Compute programs: no
+13:55:47:  * Number of floating-point constants for compute programs: 0
+13:55:47:  * Number of integer constants for compute programs: 0
+13:55:47:  * Number of boolean constants for compute programs: 0
+13:55:47:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+13:55:47:  * Texture Compression: yes
+13:55:47:    - DXT: yes
+13:55:47:    - VTC: no
+13:55:47:    - PVRTC: no
+13:55:47:    - ATC: no
+13:55:47:    - ETC1: no
+13:55:47:    - ETC2: no
+13:55:47:    - BC4/BC5: no
+13:55:47:    - BC6H/BC7: no
+13:55:47:  * Scissor Rectangle: yes
+13:55:47:  * Hardware Occlusion Query: yes
+13:55:47:  * User clip planes: yes
+13:55:47:  * VET_UBYTE4 vertex element type: yes
+13:55:47:  * Infinite far plane projection: yes
+13:55:47:  * Hardware render-to-texture: yes
+13:55:47:  * Floating point textures: yes
+13:55:47:  * Non-power-of-two textures: yes
+13:55:47:  * 1d textures: yes
+13:55:47:  * Volume textures: yes
+13:55:47:  * Multiple Render Targets: 4
+13:55:47:    - With different bit depths: yes
+13:55:47:  * Point Sprites: yes
+13:55:47:  * Extended point parameters: yes
+13:55:47:  * Max Point Size: 256
+13:55:47:  * Vertex texture fetch: yes
+13:55:47:  * Number of world matrices: 0
+13:55:47:  * Number of texture units: 8
+13:55:47:  * Stencil buffer depth: 8
+13:55:47:  * Number of vertex blend matrices: 0
+13:55:47:    - Max vertex textures: 4
+13:55:47:    - Vertex textures shared: no
+13:55:47:  * Render to Vertex Buffer : no
+13:55:47:  * Hardware Atomic Counters: no
+13:55:47:  * DirectX per stage constants: yes
+13:55:47: DefaultWorkQueue('Root') initialising on thread main.
+13:55:47: Particle Renderer Type 'billboard' registered
+13:55:47: Can't assign material  to the ManualObject Ogre/MO1 because this Material does not exist. Have you forgotten to define it in a .material script?
+13:55:48: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:48: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:48: !!! Direct3D Device successfully restored.
+13:55:48: D3D9 device: 0x[0101C0E0] was reset
+13:55:51: D3D9RenderSystem::_createRenderWindow "396412", 0x0 windowed  miscParams: externalWindowHandle=396412 
+13:55:51: D3D9 : Created D3D9 Rendering Window '396412' : 1408x304, 32bpp
+13:55:51: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:51: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:51: D3D9: Vertex texture format supported - PF_L8
+13:55:51: D3D9: Vertex texture format supported - PF_L16
+13:55:51: D3D9: Vertex texture format supported - PF_A8
+13:55:51: D3D9: Vertex texture format supported - PF_A4L4
+13:55:51: D3D9: Vertex texture format supported - PF_BYTE_LA
+13:55:51: D3D9: Vertex texture format supported - PF_R5G6B5
+13:55:51: D3D9: Vertex texture format supported - PF_B5G6R5
+13:55:51: D3D9: Vertex texture format supported - PF_A4R4G4B4
+13:55:51: D3D9: Vertex texture format supported - PF_A1R5G5B5
+13:55:51: D3D9: Vertex texture format supported - PF_A8R8G8B8
+13:55:51: D3D9: Vertex texture format supported - PF_B8G8R8A8
+13:55:51: D3D9: Vertex texture format supported - PF_A2R10G10B10
+13:55:51: D3D9: Vertex texture format supported - PF_A2B10G10R10
+13:55:51: D3D9: Vertex texture format supported - PF_DXT1
+13:55:51: D3D9: Vertex texture format supported - PF_DXT2
+13:55:51: D3D9: Vertex texture format supported - PF_DXT3
+13:55:51: D3D9: Vertex texture format supported - PF_DXT4
+13:55:51: D3D9: Vertex texture format supported - PF_DXT5
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+13:55:51: D3D9: Vertex texture format supported - PF_X8R8G8B8
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8B8A8
+13:55:51: D3D9: Vertex texture format supported - PF_DEPTH
+13:55:51: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT16_R
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT32_R
+13:55:51: D3D9: Vertex texture format supported - PF_SHORT_GR
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+13:55:51: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+13:55:51: D3D9: Vertex texture format supported - PF_SHORT_RGB
+13:55:51: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+13:55:51: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+13:55:51: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+13:55:51: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+13:55:51: D3D9: Vertex texture format supported - PF_PVRTC2_2BPP
+13:55:51: D3D9: Vertex texture format supported - PF_PVRTC2_4BPP
+13:55:51: D3D9: Vertex texture format supported - PF_R11G11B10_FLOAT
+13:55:51: D3D9: Vertex texture format supported - PF_R8_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8B8_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8B8A8_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16B16_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16B16A16_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32G32_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32G32B32_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32G32B32A32_UINT
+13:55:51: D3D9: Vertex texture format supported - PF_R8_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8B8_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8B8A8_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16B16_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16B16A16_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32G32_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32G32B32_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R32G32B32A32_SINT
+13:55:51: D3D9: Vertex texture format supported - PF_R9G9B9E5_SHAREDEXP
+13:55:51: D3D9: Vertex texture format supported - PF_BC4_UNORM
+13:55:51: D3D9: Vertex texture format supported - PF_BC4_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_BC5_UNORM
+13:55:51: D3D9: Vertex texture format supported - PF_BC5_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_BC6H_UF16
+13:55:51: D3D9: Vertex texture format supported - PF_BC6H_SF16
+13:55:51: D3D9: Vertex texture format supported - PF_BC7_UNORM
+13:55:51: D3D9: Vertex texture format supported - PF_BC7_UNORM_SRGB
+13:55:51: D3D9: Vertex texture format supported - PF_R8
+13:55:51: D3D9: Vertex texture format supported - PF_RG8
+13:55:51: D3D9: Vertex texture format supported - PF_R8_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8B8_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_R8G8B8A8_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_R16_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16B16_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_R16G16B16A16_SNORM
+13:55:51: D3D9: Vertex texture format supported - PF_ETC1_RGB8
+13:55:51: D3D9: Vertex texture format supported - PF_ETC2_RGB8
+13:55:51: D3D9: Vertex texture format supported - PF_ETC2_RGBA8
+13:55:51: D3D9: Vertex texture format supported - PF_ETC2_RGB8A1
+13:55:51: D3D9: Vertex texture format supported - PF_ATC_RGB
+13:55:51: D3D9: Vertex texture format supported - PF_ATC_RGBA_EXPLICIT_ALPHA
+13:55:51: D3D9: Vertex texture format supported - PF_ATC_RGBA_INTERPOLATED_ALPHA
+13:55:51: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:51: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:51: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:51: !!! Direct3D Device successfully restored.
+13:55:51: D3D9 device: 0x[0101C0E0] was reset
+13:55:53: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:53: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:53: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:53: !!! Direct3D Device successfully restored.
+13:55:53: D3D9 device: 0x[0101C0E0] was reset
+13:55:54: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:54: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:54: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:54: !!! Direct3D Device successfully restored.
+13:55:54: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:56: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:56: !!! Direct3D Device successfully restored.
+13:55:56: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:57: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:57: !!! Direct3D Device successfully restored.
+13:55:57: D3D9 device: 0x[0101C0E0] was reset
+13:55:59: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:59: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:59: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:59: !!! Direct3D Device successfully restored.
+13:55:59: D3D9 device: 0x[0101C0E0] was reset
+13:55:59: D3D9 Device 0x[0101C0E0] entered lost state
+13:55:59: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:59: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:55:59: !!! Direct3D Device successfully restored.
+13:55:59: D3D9 device: 0x[0101C0E0] was reset
+13:56:01: D3D9 Device 0x[0101C0E0] entered lost state
+13:56:01: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:56:01: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:56:01: !!! Direct3D Device successfully restored.
+13:56:01: D3D9 device: 0x[0101C0E0] was reset
+13:56:18: D3D9 Device 0x[0101C0E0] entered lost state
+13:56:18: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:56:18: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:56:18: !!! Direct3D Device successfully restored.
+13:56:18: D3D9 device: 0x[0101C0E0] was reset
+13:56:37: D3D9 Device 0x[0101C0E0] entered lost state
+13:56:37: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:56:37: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+13:56:37: !!! Direct3D Device successfully restored.
+13:56:37: D3D9 device: 0x[0101C0E0] was reset
+13:56:41: DefaultWorkQueue('Root') shutting down on thread main.
+13:56:41: *-*-* OGRE Shutdown
+13:56:41: *-*-* OGRE Shutdown
+13:56:41: Unregistering ResourceManager for type Compositor
+13:56:41: Unregistering ResourceManager for type Skeleton
+13:56:41: Unregistering ResourceManager for type Mesh
+13:56:41: Unregistering ResourceManager for type HighLevelGpuProgram
+13:56:41: Uninstalling plugin: D3D9 RenderSystem
+13:56:41: D3D9 : Shutting down cleanly.
+13:56:41: Unregistering ResourceManager for type Texture
+13:56:41: Unregistering ResourceManager for type GpuProgram
+13:56:41: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+13:56:41: Plugin successfully uninstalled
+13:56:41: Unloading library RenderSystem_Direct3D9
+13:56:41: Unregistering ResourceManager for type Material
